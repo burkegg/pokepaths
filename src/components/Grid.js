@@ -8,10 +8,6 @@ export default class Grid extends Component{
     }
   }
 
-
-
-  
-
   renderDropDown = () => {
     /*
     Returns dropdown menu to choose click task.  
@@ -44,10 +40,8 @@ export default class Grid extends Component{
 
   
   renderGridSquares = () => {
-    let { size, handleClick } = this.props;
-    size = parseInt(size, 10);
+    let { handleClick } = this.props;
     let grid = this.props.grid.flat();
-    console.log('renderGridSquares', grid)
     return (
       <div>
         {grid.map( (sqr) => {
@@ -60,7 +54,6 @@ export default class Grid extends Component{
   }
 
   render() {
-    const { clickType, size } = this.props;
     return (
       <div>
         {this.renderGridSizer()}
@@ -68,7 +61,7 @@ export default class Grid extends Component{
         <div id="grid">
           {this.renderGridSquares()}
         </div>
-        
+
       </div>
     )
   }
