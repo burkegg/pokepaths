@@ -1,17 +1,21 @@
 #grid {
   position: relative;
   margin-left: 50px;
-  margin-top: 50px;
+  margin-top: 100px;
 }
 
+#failure {
+  position: absolute;
+  margin-top: 350px;
+}
 .square {
   position: absolute;
 }
 
 #answer {
   position: absolute;
-  padding-top: 30px;
-  padding-left: 50px;
+  margin-top: 30px;
+  margin-left: 50px;
 }
 
 .App {

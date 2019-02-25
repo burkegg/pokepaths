@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 const Square = (props) => {
   /*
     A stateless copmonent.  
@@ -6,7 +6,7 @@ const Square = (props) => {
       id: the stringified location in the grid.
       data: the description of which image to display.
   */
-  
+
   const passClick = ()=>{
     const { handleClick, id } = props;
     handleClick(id);

@@ -1,8 +1,7 @@
-import React, { Component } from 'react';
+import React from 'react';
 
 const Answer = (props) => {
-  const { getAnswer, moves } = props;
-  console.log('moves in answer', moves);
+  const { getAnswer } = props;
   return(
     <div id="answer">
       <input type="submit" value="Get home!" onClick={getAnswer}/>
