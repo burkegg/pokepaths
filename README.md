@@ -1,8 +1,8 @@
-##PokePaths: Call an API and show the results
+## PokePaths: Call an API and show the results
 
 This is a coding challenge for a job application.  It acceses their API, and uses the results to show an animation.
 
-###To install and run:
+### To install and run:
 
 1: Use a recent version of Node.  There is strange behavior on Node ~6.  
 2: Clone the repo.  
@@ -12,7 +12,7 @@ This is a coding challenge for a job application.  It acceses their API, and use
 5: This should open a browser to view the project, but if not:  
    Open a browser window and direct it to http://localhost:3000  
 
-###To use:
+### To use:
 
 1: Type in a size for the grid, between 2 and 10 (inclusive).  
 2: Use the dropdown menu to place start and end points.
