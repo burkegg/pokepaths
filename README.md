@@ -15,7 +15,7 @@ This is a coding challenge for a job application.  It acceses their API, and use
 ### To use:
 
 1: Type in a size for the grid, between 2 and 10 (inclusive).  
-2: Use the dropdown menu to place start and end points.
+2: Use the dropdown menu to place start and end points.  
 3: You can also place or remove obstacles with the dropdown menu.
 4: After both a start point and end point have been selected, a new button will appear to show you the route home.  
 5: If you created an unsolveable route, you should see a message telling you so.  You can edit the size of the grid to start over.
